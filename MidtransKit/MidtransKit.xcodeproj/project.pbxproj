@@ -197,8 +197,6 @@
 		3D40894A1F75133200B9A2EC /* prima_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4089451F75133200B9A2EC /* prima_preview@2x.png */; };
 		3D40894B1F75133200B9A2EC /* prima_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4089461F75133200B9A2EC /* prima_preview@3x.png */; };
 		3D40894C1F75133200B9A2EC /* prima_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4089461F75133200B9A2EC /* prima_preview@3x.png */; };
-<<<<<<< HEAD
-=======
 		3D8BF5CF1F90BD8B00F35C55 /* MidtransUITableAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8BF5CD1F90BD8B00F35C55 /* MidtransUITableAlertViewController.h */; };
 		3D8BF5D01F90BD8B00F35C55 /* MidtransUITableAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8BF5CE1F90BD8B00F35C55 /* MidtransUITableAlertViewController.m */; };
 		3D8BF5D41F90BDC400F35C55 /* MidtransUITableAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8BF5D31F90BDC400F35C55 /* MidtransUITableAlertViewController.xib */; };
@@ -223,7 +221,6 @@
 		3DECDFF41F9DAE610001AC9A /* see@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DECDFE31F9DAE610001AC9A /* see@2x.png */; };
 		3DECDFF51F9DAE610001AC9A /* see@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DECDFE41F9DAE610001AC9A /* see@3x.png */; };
 		3DECDFF61F9DAE610001AC9A /* see@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DECDFE41F9DAE610001AC9A /* see@3x.png */; };
->>>>>>> aee4923... added icons for secondary button
 		E519C9621E9B6F2000EF70DF /* bni_va1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E519C9531E9B6F2000EF70DF /* bni_va1@2x.png */; };
 		E519C9631E9B6F2000EF70DF /* bni_va1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E519C9531E9B6F2000EF70DF /* bni_va1@2x.png */; };
 		E519C9661E9B6F2000EF70DF /* bni_va2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E519C9551E9B6F2000EF70DF /* bni_va2@2x.png */; };
@@ -1232,8 +1229,6 @@
 		3D4089441F75133200B9A2EC /* prima_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prima_preview.png; path = resources/prima_preview.png; sourceTree = "<group>"; };
 		3D4089451F75133200B9A2EC /* prima_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prima_preview@2x.png"; path = "resources/prima_preview@2x.png"; sourceTree = "<group>"; };
 		3D4089461F75133200B9A2EC /* prima_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prima_preview@3x.png"; path = "resources/prima_preview@3x.png"; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		3D8BF5CD1F90BD8B00F35C55 /* MidtransUITableAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidtransUITableAlertViewController.h; path = classes/MidtransUITableAlertViewController.h; sourceTree = "<group>"; };
 		3D8BF5CE1F90BD8B00F35C55 /* MidtransUITableAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidtransUITableAlertViewController.m; path = classes/MidtransUITableAlertViewController.m; sourceTree = "<group>"; };
 		3D8BF5D31F90BDC400F35C55 /* MidtransUITableAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MidtransUITableAlertViewController.xib; path = MidtransKit/classes/MidtransUITableAlertViewController.xib; sourceTree = SOURCE_ROOT; };
@@ -1246,7 +1241,6 @@
 		3DECDFE21F9DAE610001AC9A /* see.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = see.png; sourceTree = "<group>"; };
 		3DECDFE31F9DAE610001AC9A /* see@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "see@2x.png"; sourceTree = "<group>"; };
 		3DECDFE41F9DAE610001AC9A /* see@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "see@3x.png"; sourceTree = "<group>"; };
->>>>>>> aee4923... added icons for secondary button
 		E503AECB1C8E889C00F097FF /* VTVAListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTVAListController.h; path = classes/VTVAListController.h; sourceTree = "<group>"; };
 		E503AECC1C8E889C00F097FF /* VTVAListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTVAListController.m; path = classes/VTVAListController.m; sourceTree = "<group>"; };
 		E503AED51C8E8AF800F097FF /* MidtransUIListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidtransUIListCell.h; path = classes/MidtransUIListCell.h; sourceTree = "<group>"; };
@@ -2066,13 +2060,11 @@
 		30AB739C1C7D57B6001F42FE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				0C9324401F7B7DBC00D9A390 /* danamon_online.png */,
 				0C93243C1F7B7DB700D9A390 /* danamon_online@1.5x.png */,
 				0C9324411F7B7DBC00D9A390 /* danamon_online@2x.png */,
 				0C9324421F7B7DBD00D9A390 /* danamon_online@3x.png */,
 				0C93243F1F7B7DBB00D9A390 /* danamon_online@4x.png */,
-=======
 				3DECDFDC1F9DAE610001AC9A /* download.png */,
 				3DECDFDD1F9DAE610001AC9A /* download@2x.png */,
 				3DECDFDE1F9DAE610001AC9A /* download@3x.png */,
@@ -2082,7 +2074,6 @@
 				3DECDFE21F9DAE610001AC9A /* see.png */,
 				3DECDFE31F9DAE610001AC9A /* see@2x.png */,
 				3DECDFE41F9DAE610001AC9A /* see@3x.png */,
->>>>>>> aee4923... added icons for secondary button
 				0CE1D2711F62A71E003A012F /* arrow@2x.png */,
 				0CE1D2681F62A68E003A012F /* maintain@3x.png */,
 				0CE1D2651F62A670003A012F /* test_badge@2x.png */,
