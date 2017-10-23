@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -92,15 +91,26 @@
                         </constraints>
                     </imageView>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-Zu-uCe">
                         <rect key="frame" x="130" y="383.5" width="115" height="24"/>
+=======
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFh-Zu-uCe">
+                        <rect key="frame" x="107" y="383.5" width="162" height="24"/>
+>>>>>>> 8c09501... hide scan card button, fix download instruction
                         <constraints>
                             <constraint firstAttribute="height" constant="24" id="6e0-oE-Ebk"/>
+                            <constraint firstAttribute="width" constant="162" id="Ngf-XK-jOX"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="11"/>
-                        <state key="normal" title="Total 64 registered banks"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="13"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Total 64 registered banks" image="see.png">
+                            <color key="titleColor" red="0.1843137255" green="0.50196078430000002" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
                     </button>
+<<<<<<< HEAD
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="see.png" translatesAutoresizingMaskIntoConstraints="NO" id="dDw-U0-4bg">
                         <rect key="frame" x="100" y="380.5" width="30" height="30"/>
                         <constraints>
@@ -109,15 +119,20 @@
                         </constraints>
                     </imageView>
 >>>>>>> aee4923... added icons for secondary button
+=======
+>>>>>>> 8c09501... hide scan card button, fix download instruction
                 </subviews>
                 <constraints>
                     <constraint firstItem="zir-Nc-rh2" firstAttribute="leading" secondItem="dxx-fu-CgF" secondAttribute="leading" constant="15" id="3aw-mf-6WY"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <constraint firstItem="lZV-aq-b2w" firstAttribute="top" secondItem="0Bs-05-PwO" secondAttribute="bottom" constant="8" id="879-Px-pig"/>
                     <constraint firstItem="0Bs-05-PwO" firstAttribute="leading" secondItem="dxx-fu-CgF" secondAttribute="leadingMargin" id="CLS-Qv-rGW"/>
 =======
                     <constraint firstItem="iFh-Zu-uCe" firstAttribute="leading" secondItem="dDw-U0-4bg" secondAttribute="trailing" id="B3y-Oq-Tv7"/>
 >>>>>>> aee4923... added icons for secondary button
+=======
+>>>>>>> 8c09501... hide scan card button, fix download instruction
                     <constraint firstItem="zir-Nc-rh2" firstAttribute="top" secondItem="dxx-fu-CgF" secondAttribute="top" constant="8" id="E4y-Ku-AKV"/>
                     <constraint firstAttribute="trailingMargin" secondItem="lZV-aq-b2w" secondAttribute="trailing" constant="-8" id="OEL-Yu-Vf6"/>
                     <constraint firstItem="0Bs-05-PwO" firstAttribute="top" secondItem="gR6-sh-JnL" secondAttribute="bottom" constant="8" id="PK0-74-8il"/>
@@ -135,8 +150,11 @@
                     <constraint firstAttribute="trailing" secondItem="iIR-WH-ZYP" secondAttribute="trailing" constant="15" id="n6x-82-dri"/>
                     <constraint firstItem="iIR-WH-ZYP" firstAttribute="leading" secondItem="dxx-fu-CgF" secondAttribute="leading" constant="15" id="nbm-n8-ung"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     <constraint firstItem="dDw-U0-4bg" firstAttribute="centerY" secondItem="iFh-Zu-uCe" secondAttribute="centerY" id="rps-ON-b39"/>
+=======
+>>>>>>> 8c09501... hide scan card button, fix download instruction
                     <constraint firstItem="ut2-Ps-drI" firstAttribute="top" secondItem="gR6-sh-JnL" secondAttribute="bottom" constant="8" id="wAN-AP-KU6"/>
 >>>>>>> aee4923... added icons for secondary button
                     <constraint firstAttribute="bottomMargin" secondItem="lZV-aq-b2w" secondAttribute="bottom" constant="30" id="wej-ut-EkF"/>
