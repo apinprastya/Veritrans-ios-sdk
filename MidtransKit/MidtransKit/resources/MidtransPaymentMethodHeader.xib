@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="SourceSansPro-Light.ttf">
+            <string>SourceSansPro-Light</string>
+        </array>
         <array key="SourceSansPro-Regular.ttf">
             <string>SourceSansPro-Regular</string>
         </array>
@@ -38,8 +41,8 @@
                 <constraint firstAttribute="bottom" secondItem="Iib-bd-5U3" secondAttribute="bottom" id="WSr-ab-MP5"/>
                 <constraint firstItem="Iib-bd-5U3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qaY-KL-EHi" secondAttribute="trailing" constant="8" id="ZYO-dz-yWe"/>
                 <constraint firstItem="Iib-bd-5U3" firstAttribute="top" secondItem="7ZA-6L-FwF" secondAttribute="top" id="bo2-S3-ZNA"/>
-                <constraint firstAttribute="trailing" secondItem="Iib-bd-5U3" secondAttribute="trailing" constant="15" id="erG-x2-R3V"/>
                 <constraint firstItem="qaY-KL-EHi" firstAttribute="centerY" secondItem="Iib-bd-5U3" secondAttribute="centerY" id="qAX-h1-hUZ"/>
+                <constraint firstAttribute="trailing" secondItem="Iib-bd-5U3" secondAttribute="trailing" constant="10" id="qsM-6V-tMY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
