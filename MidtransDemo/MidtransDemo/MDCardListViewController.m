@@ -51,11 +51,11 @@
 }
 - (void)addCardPressed:(id)sender{
     
-    NSString *clientkey = @"VT-client-E4f1bsi1LpL1p5cF";
-    NSString *merchantServer = @"https://rakawm-snap.herokuapp.com";
+    NSString *clientkey = @"VT-client-wCJjpTZFZXctY_ID";
+    NSString *merchantServer = @"https://localhost:8000";
     [[MidtransNetworkLogger shared] startLogging];
     [CONFIG setClientKey:clientkey
-             environment:MidtransServerEnvironmentSandbox
+             environment:MidtransServerEnvironmentStaging
        merchantServerURL:merchantServer];
     MidtransUIPaymentViewController *paymentVC = [[MidtransUIPaymentViewController alloc] initCreditCardForm];
     paymentVC.paymentDelegate = self;
