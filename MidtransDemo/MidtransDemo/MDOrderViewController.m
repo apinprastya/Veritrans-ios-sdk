@@ -42,10 +42,9 @@
             merchantServer = @"https://demo-merchant-server.herokuapp.com";
             break;
     }
-    clientkey = @"VT-client-wCJjpTZFZXctY_ID";
-    merchantServer = @"https://localhost:8000";
+    
         [CONFIG setClientKey:clientkey
-                 environment:MidtransServerEnvironmentStaging
+                 environment:MidtransServerEnvironmentSandbox
            merchantServerURL:merchantServer];
     
     //forced to use token storage

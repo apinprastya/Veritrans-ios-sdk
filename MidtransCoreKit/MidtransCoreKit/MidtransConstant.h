@@ -59,6 +59,7 @@ static NSString * const MIDTRANS_PAYMENT_XL_TUNAI = @"xl_tunai";
 static NSString * const MIDTRANS_PAYMENT_MANDIRI_CLICKPAY = @"mandiri_clickpay";
 static NSString * const MIDTRANS_PAYMENT_GCI = @"gci";
 static NSString * const MIDTRANS_PAYMENT_KIOS_ON = @"kioson";
+static NSString * const MIDTRANS_PAYMENT_GOPAY = @"gopay";
 
 static NSString *const TRANSACTION_SUCCESS = @"vtTRANSACTION_SUCCESS";
 static NSString *const TRANSACTION_PENDING = @"vtTRANSACTION_PENDING";

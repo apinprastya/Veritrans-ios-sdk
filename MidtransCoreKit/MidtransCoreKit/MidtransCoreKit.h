@@ -53,6 +53,7 @@ FOUNDATION_EXPORT const unsigned char MidtransCoreKitVersionString[];
 #import "MidtransMandiriClickpayHelper.h"
 #import "MidtransPaymentEpayBRI.h"
 #import "MidtransPaymentKiosOn.h"
+#import "MidtransPaymentGopay.h"
 #import "MidtransPaymentListModel.h"
 #import "MidtransVirtualAccountModel.h"
 #import "SNPUITrackingManager.h"

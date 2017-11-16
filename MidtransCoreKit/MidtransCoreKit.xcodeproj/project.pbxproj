@@ -33,6 +33,10 @@
 		0C9324391F7B76E900D9A390 /* MidtransPaymentDanamonOnline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9324371F7B76E800D9A390 /* MidtransPaymentDanamonOnline.m */; };
 		0C93243A1F7B76F500D9A390 /* MidtransPaymentDanamonOnline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9324371F7B76E800D9A390 /* MidtransPaymentDanamonOnline.m */; };
 		0C93243B1F7B76FA00D9A390 /* MidtransPaymentDanamonOnline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9324361F7B76E800D9A390 /* MidtransPaymentDanamonOnline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D0E6C4F1FBADAFD00E6CC43 /* MidtransPaymentGopay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0E6C4D1FBADAFD00E6CC43 /* MidtransPaymentGopay.h */; };
+		3D0E6C501FBADAFD00E6CC43 /* MidtransPaymentGopay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0E6C4D1FBADAFD00E6CC43 /* MidtransPaymentGopay.h */; };
+		3D0E6C511FBADAFD00E6CC43 /* MidtransPaymentGopay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6C4E1FBADAFD00E6CC43 /* MidtransPaymentGopay.m */; };
+		3D0E6C521FBADAFD00E6CC43 /* MidtransPaymentGopay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6C4E1FBADAFD00E6CC43 /* MidtransPaymentGopay.m */; };
 		E55F63521E934C4700C012C8 /* NSString+MidtransValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0089B5F71D13D5D6009C0059 /* NSString+MidtransValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55F63531E934C4700C012C8 /* SNPUITrackingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1923601E430A8C00B3BBDB /* SNPUITrackingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E55F63541E934C4700C012C8 /* MidtransConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED4518D1D09C4D7008BAED8 /* MidtransConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -387,6 +391,8 @@
 		3054946E1C75A0ED00938C17 /* MidtransHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransHelper.m; sourceTree = "<group>"; };
 		30D9ABFA1C76FD1D00F858AE /* MidtransNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransNetworkOperation.h; sourceTree = "<group>"; };
 		30D9ABFB1C76FD1D00F858AE /* MidtransNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransNetworkOperation.m; sourceTree = "<group>"; };
+		3D0E6C4D1FBADAFD00E6CC43 /* MidtransPaymentGopay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidtransPaymentGopay.h; sourceTree = "<group>"; };
+		3D0E6C4E1FBADAFD00E6CC43 /* MidtransPaymentGopay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidtransPaymentGopay.m; sourceTree = "<group>"; };
 		E50D85D21D0EC64E00F26D2E /* MidtransPaymentMandiriECash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransPaymentMandiriECash.h; sourceTree = "<group>"; };
 		E50D85D31D0EC64E00F26D2E /* MidtransPaymentMandiriECash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransPaymentMandiriECash.m; sourceTree = "<group>"; };
 		E50D85E31D0ECB7000F26D2E /* MidtransPaymentBCAKlikpay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransPaymentBCAKlikpay.h; sourceTree = "<group>"; };
@@ -679,6 +685,8 @@
 			isa = PBXGroup;
 			children = (
 				E5E4360B1CE31AED00F688ED /* MidtransPaymentDetails.h */,
+				3D0E6C4D1FBADAFD00E6CC43 /* MidtransPaymentGopay.h */,
+				3D0E6C4E1FBADAFD00E6CC43 /* MidtransPaymentGopay.m */,
 				E53BD03B1D14322B001FADDE /* MidtransPaymentEpayBRI.h */,
 				E53BD03C1D14322B001FADDE /* MidtransPaymentEpayBRI.m */,
 				00EA7E661D12D10D00A6CA53 /* MidtransPaymentMandiriClickpay.h */,
@@ -873,6 +881,7 @@
 				E571206D1E937A790064F515 /* MidtransPaymentRequestV2TransactionDetails.h in Headers */,
 				E571206E1E937A790064F515 /* MidtransObtainedPromo.h in Headers */,
 				E571206F1E937A790064F515 /* MidtransTransactionTokenResponse.h in Headers */,
+				3D0E6C501FBADAFD00E6CC43 /* MidtransPaymentGopay.h in Headers */,
 				E57120701E937A790064F515 /* MidtransVirtualAccountModel.h in Headers */,
 				E57120711E937A790064F515 /* MidtransPaymentListDataModel.h in Headers */,
 				E57120721E937A790064F515 /* MidtransPaymentListModel.h in Headers */,
@@ -959,6 +968,7 @@
 				E55F63751E934C4800C012C8 /* MidtransPaymentRequestV2Preference.h in Headers */,
 				E55F63761E934C4800C012C8 /* MidtransPaymentRequestV2Response.h in Headers */,
 				E55F63771E934C4800C012C8 /* MidtransPaymentRequestV2ShippingAddress.h in Headers */,
+				3D0E6C4F1FBADAFD00E6CC43 /* MidtransPaymentGopay.h in Headers */,
 				E55F63781E934C4800C012C8 /* MidtransPaymentRequestV2TransactionDetails.h in Headers */,
 				E55F63791E934C4800C012C8 /* MidtransObtainedPromo.h in Headers */,
 				E55F637A1E934C4800C012C8 /* MidtransTransactionTokenResponse.h in Headers */,
@@ -1112,6 +1122,7 @@
 				E57120111E937A2B0064F515 /* MidtransBinResponse.m in Sources */,
 				E57120121E937A2B0064F515 /* MidtransTransactionExpire.m in Sources */,
 				E57120131E937A2B0064F515 /* MidtransPromo.m in Sources */,
+				3D0E6C521FBADAFD00E6CC43 /* MidtransPaymentGopay.m in Sources */,
 				E57120141E937A2B0064F515 /* MidtransPaymentRequestV2Installment.m in Sources */,
 				E57120161E937A2C0064F515 /* MidtransPaymentRequestV2Terms.m in Sources */,
 				E57120171E937A2C0064F515 /* MidtransPaymentRequestV2SavedTokens.m in Sources */,
@@ -1189,6 +1200,7 @@
 				E5711FF81E9379B90064F515 /* MidtransPaymentListModel.m in Sources */,
 				E55F63AD1E934C6400C012C8 /* MidtransPromo.m in Sources */,
 				E55F63AE1E934C6400C012C8 /* MidtransPaymentRequestV2Installment.m in Sources */,
+				3D0E6C511FBADAFD00E6CC43 /* MidtransPaymentGopay.m in Sources */,
 				E55F63B01E934C6400C012C8 /* MidtransPaymentRequestV2Terms.m in Sources */,
 				E55F63B11E934C6400C012C8 /* MidtransPaymentRequestV2SavedTokens.m in Sources */,
 				E55F63B21E934C6400C012C8 /* MidtransPaymentRequestV2BillingAddress.m in Sources */,

@@ -19,6 +19,7 @@
 #import "VTPaymentListView.h"
 #import "MidtransNewCreditCardViewController.h"
 #import "MidtransPaymentGCIViewController.h"
+#import "MidtransPaymentGopayViewController.h"
 #import "MidtransTransactionDetailViewController.h"
 #import <MidtransCoreKit/MidtransCoreKit.h>
 #import "MidtransUIThemeManager.h"
@@ -323,6 +324,10 @@
                                                                            paymentMethodName:paymentMethod];
         [vc showDismissButton:self.singlePayment];
         [self.navigationController pushViewController:vc animated:!self.singlePayment];
+    }
+    else if ([paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_GOPAY]) {
+        MidtransPaymentGopayViewController *gopayViewController = [[MidtransPaymentGopayViewController alloc] init];
+        [self.navigationController pushViewController:gopayViewController animated:YES];
     }
     else {
         MidtransUIPaymentDirectViewController *vc = [[MidtransUIPaymentDirectViewController alloc] initWithToken:self.token paymentMethodName:paymentMethod];

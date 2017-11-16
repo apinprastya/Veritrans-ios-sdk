@@ -79,6 +79,8 @@
     "kioson.pending.code-title" : "Payment Code",
     "kioson.pending.howto-title" : "How Can I Pay via Kioson",
     "kioson.pending.copy-title" : "Copy Payment Code",
+    "gopay.fail" : "Unfortunately, we couldn't find GO-JEK app installed on your phone.",
+    "gopay.required" : "GO-JEK app is required for this payment method.",
     
     "gci.placeholder" : "Your gift card number",
     "No Installment" : "No Installment",

@@ -83,6 +83,9 @@
         case MidtransPaymentFeatureBRIEpay:
             paymentMethodSelected = MIDTRANS_PAYMENT_BRI_EPAY;
             break;
+        case MidtransPaymentFeatureGopay:
+            paymentMethodSelected = MIDTRANS_PAYMENT_GOPAY;
+            break;
         default:
             paymentMethodSelected = nil;
             break;

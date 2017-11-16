@@ -56,6 +56,7 @@ typedef NS_ENUM(NSInteger, MidtransPaymentFeature) {
     MidtransPaymentFeatureXLTunai,
     MidtransPaymentFeatureMandiriClickPay,
     MidtransPaymentFeatureKiosON,
+    MidtransPaymentFeatureGopay,
     MidtransPaymentFeatureGCI,
     MidtransPaymentCreditCardForm
 };

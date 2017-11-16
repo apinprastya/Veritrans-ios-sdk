@@ -77,10 +77,10 @@
 - (IBAction)saveCardButtonDidtapped:(id)sender {
 
     NSString *clientkey = @"VT-client-wCJjpTZFZXctY_ID";
-    NSString *merchantServer = @"https://localhost:8000";
+    NSString *merchantServer = @"http://localhost:8000";
     [[MidtransNetworkLogger shared] startLogging];
     [CONFIG setClientKey:clientkey
-             environment:MidtransServerEnvironmentStaging
+             environment:MidtransServerEnvironmentSandbox
        merchantServerURL:merchantServer];
     
     JGProgressHUD *hud =  [JGProgressHUD progressHUDWithStyle:JGProgressHUDStyleDark];

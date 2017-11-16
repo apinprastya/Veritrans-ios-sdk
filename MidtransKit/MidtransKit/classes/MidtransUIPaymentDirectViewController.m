@@ -40,6 +40,7 @@
                [self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_BRI_EPAY] ||
                [self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_INDOMARET] ||
                [self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_DANAMON_ONLINE]  ||
+               [self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_GOPAY]  ||
                [self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_MANDIRI_ECASH] ) {
         self.view.disclosureButtonImage.hidden = NO;
     } else {
@@ -102,6 +103,9 @@
     }
     else if ([self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_KIOS_ON]) {
         paymentDetails = [[MidtransPaymentKiosOn alloc] init];
+    }
+    else if ([self.paymentMethod.internalBaseClassIdentifier isEqualToString:MIDTRANS_PAYMENT_GOPAY]) {
+        paymentDetails = [[MidtransPaymentGopay alloc] init];
     }
     
     MidtransTransaction *transaction = [[MidtransTransaction alloc] initWithPaymentDetails:paymentDetails token:self.token];

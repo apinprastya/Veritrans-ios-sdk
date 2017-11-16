@@ -77,6 +77,8 @@
     "kioson.pending.code-title":"Kode Pembayaran",
     "kioson.pending.howto-title":"Bagaimana saya dapat melakukan pembayaran dengan Kioson?",
     "kioson.pending.copy-title":"Salin Kode Pembayaran",
+    "gopay.required" : "Metode pembayaran ini membutuhkan aplikasi GO-JEK",
+    "gopay.fail" : "Kami tidak dapat menemukan aplikasi GO-JEK di ponsel anda.",
     "gci.placeholder":"Nomer kartu gift card anda",
     "No Installment":"Tanpa cicilan",
     "month.installments":"cicilan %@ bulan ",

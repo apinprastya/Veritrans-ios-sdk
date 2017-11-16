@@ -51,10 +51,14 @@
     "type": "indosat_dompetku",
     "name": "Indosat Dompetku"
   },
-  {
-    "type": "kioson",
-    "name": "KiosOn"
-  },
+ {
+ "type": "kioson",
+ "name": "KiosOn"
+ },
+ {
+ "type": "gopay",
+ "name": "GoPay"
+ },
   {
     "type": "gci",
     "name": "GCI"
